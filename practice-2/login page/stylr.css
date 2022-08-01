@@ -1,0 +1,182 @@
+body{
+    background-color:#BBDEFB ;
+    display: flex;
+   
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+
+.main{
+   
+    
+  
+background-color:white ;
+width: 500px;
+height: 500px;
+border-radius: 10px;
+
+
+}
+.top-row{
+
+    display: flex;
+    font-weight: bold;
+align-self: center;
+
+    margin: 50px 50px;
+    flex-wrap: wrap;
+
+   gap: 40px;}
+
+/* input-style */
+   input{
+    border: 1px solid #BBDEFB;
+    box-sizing: border-box;
+    outline: none;
+   }
+   input:focus{
+    
+    border: 2px solid #1565C0;
+   }
+/* birth day */
+.birth-date{
+    
+    margin-top: -20px;}
+/* id */
+.id-number{
+    width:10px ;
+    height:10px ;
+   
+    text-align: left;
+display: flex;
+ 
+}
+
+   /* radio style */
+ .radio{
+    padding-left: 60px;
+    margin-top: -20px;
+ }
+
+.container {
+    display: flex;
+    background-color:white;
+    height: 49px;
+    width: 99px;
+    align-items: center;
+  
+    border-radius: 10px;
+    overflow: hidden;
+    border: #BBDEFB solid 1px;
+    
+}
+input#opt1,#opt2 {
+    display: none;
+
+}
+
+
+.label1 , .label2 {
+   
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 99px;
+    width: 99px;
+   background-color: white;
+   text-align: center;
+    /* position: absolute; */
+    color: gray;
+    transition: 0.5s;
+  
+}
+
+span {
+    
+
+    display: flex;
+    height: 100px;
+    width: 10px;
+text-align: center;
+   
+    align-items: center;
+    font-family: sans-serif;
+   
+    padding-left: 10px;
+   
+}
+input[type="radio"]:checked + label {
+    display:flex;
+  
+    background-color: #1565C0;
+    color: white;
+    transition: 0.7s;
+}
+/* buttom -section */
+
+.bottom-row{
+
+    display: flex;
+    font-weight: bold;
+align-self: center;
+
+    margin: 50px 50px;
+    flex-wrap: wrap;
+
+   gap: 50px;
+
+}
+
+/* city -- PROVINCE */
+select{
+    border: 1px solid #BBDEFB;
+    box-sizing: border-box;
+    outline: none;
+    
+    font-size: 10PX;
+   }
+   select:focus{
+    
+    border: 2px solid #1565C0;
+   }
+
+   .move{
+    margin-bottom: -100px;
+
+    margin-left: 300px;
+    margin-top:-82px;
+}
+
+
+/* password */
+.password{
+   
+    margin-top: -70px;
+}
+/* submit section */
+.submit{
+    
+    margin-top: -20px;
+margin-left: 300px;
+}
+   button{
+
+width: 80px;
+height: 40px;
+background-color: #BBDEFB;
+border: #BBDEFB ;
+ margin-top: -10px;
+
+
+   }
+   
+button:hover{
+    background-color: #1565C0;
+    color: white;
+    cursor:pointer
+}
+
+
+

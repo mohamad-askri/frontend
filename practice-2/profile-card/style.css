@@ -1,0 +1,45 @@
+
+body{
+
+    background-color:#DBDFFD ;
+
+}
+.main{
+     background-color:#ffffff;  
+ 
+     border-radius: 9999px;
+    margin: auto;
+    width: 60%;
+height: 100px;
+    padding: 50px;
+
+    
+}
+/* information section */
+.info{
+   margin-top: -30px;
+    margin-left:70px ;
+    width: 50%;
+height: 100px;
+ padding-left: 100px;
+    text-align: left;
+
+
+}
+.info > strong{
+    
+    font-size: 20px;
+ 
+}
+/*  img section */
+img{
+
+margin-top: -280px;
+margin-bottom: 14px;
+ margin-left :250px ; 
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+  }
+    

@@ -1,0 +1,134 @@
+.main-page{
+    margin-top: 55px;
+}
+    
+/* tabs -section */
+.tabs {
+	display: flex;
+
+	flex-wrap: wrap; // make sure it wraps
+   
+    
+}
+.tabs label {
+	order: 1; // Put the labels first
+	display: block;
+	padding: 1rem 2rem;
+	margin-right: 0.2rem;
+	cursor: pointer;
+  background: #90CAF9;
+  font-weight: bold;
+  transition: background ease 0.2s;
+}
+.tabs .tab {
+  order: 99; // Put the tabs last
+  flex-grow: 1;
+	width: 100%;
+	display: none;
+  padding: 1rem;
+  background: #fff;
+}
+.tabs input[type="radio"] {
+	display: none;
+}
+.tabs input[type="radio"]:checked + label {
+	background: #fff;
+}
+.tabs input[type="radio"]:checked + label + .tab {
+	display: block;
+}
+
+  {
+  .tabs .tab,
+  .tabs label {
+    order: initial;
+  } 
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
+}
+
+
+
+body {
+  background: #eee;
+ 
+	box-sizing: border-box;
+	
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+ 
+width: 1000px;
+height: 800px;
+  margin: 0 auto;
+  font-size: 112%;
+}
+/* img */
+img{
+  width: 100px;
+  height: 100px;
+
+}
+
+/* frontend class */
+.front ,.front-2,.front-3{
+display: flex;
+gap: 40px;
+
+}
+
+/* devops class */
+.devops-3,.devops,.devops-2{
+  display: flex;
+gap: 40px;
+}
+ 
+/* backend class */ 
+.backend-2,.backend,.backend-3{
+  display: flex;
+gap: 40px;
+}
+
+/* score section */
+
+span:nth-child(3){
+  color: #647687;
+}
+
+.score{
+    display: flex;
+    margin-top: -30px;
+    flex-direction: column;
+}
+
+
+.score>span{
+
+    color: gold;
+    font-size: 20px;
+
+}
+
+.score-2>span{
+    font-size: 20px;
+    
+margin-right:50px;
+display: flex;
+margin-top: 60px;
+flex-direction: column;
+    color:silver;
+}
+
+
+.score-3>span{
+    font-size: 20px;
+    color: #CD7F32;
+    
+margin-right: 50px;
+display: flex;
+margin-top: 60px;
+flex-direction: column;
+  
+}
+
